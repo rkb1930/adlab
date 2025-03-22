@@ -19,7 +19,7 @@ L. DELETE FROM course WHERE course_id LIKE 'BIO%';
 
 
 
-INSERT INTO Instructor (ID, Name, Dept_name, Salary) VALUES
+INSERT INTO instructor (ID, Name, Dept_name, salary) VALUES
 (10001, 'John Doe', 'Computer Science', 90000),
 (10002, 'Jane Smith', 'Mathematics', 85000),
 (10003, 'Robert Brown', 'Physics', 92000),
