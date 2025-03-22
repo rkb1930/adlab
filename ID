@@ -14,3 +14,14 @@ I. SELECT name, salary * 12 AS annual_salary FROM instructor;
 J. UPDATE course SET title = 'Game Theory' WHERE title = 'Game Design';
 K. DELETE FROM instructor WHERE dept_name = 'History';
 L. DELETE FROM course WHERE course_id LIKE 'BIO%';
+
+
+
+
+
+INSERT INTO Instructor (ID, Name, Dept_name, Salary) VALUES
+(10001, 'John Doe', 'Computer Science', 90000),
+(10002, 'Jane Smith', 'Mathematics', 85000),
+(10003, 'Robert Brown', 'Physics', 92000),
+(10004, 'Emily White', 'Biology', 87000),
+(10005, 'Michael Johnson', 'Chemistry', 89000);
